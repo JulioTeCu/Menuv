@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuv.contacto">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="MediumSeaGreen" Padding="24" CornerRadius="0">
+                <Label Text="CONTACTO" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label FontSize="20" HorizontalTextAlignment="Center" 
+                   TextColor="Orange">Celular: 2462417309</Label>
+            <Label FontSize="20" HorizontalTextAlignment="Center" 
+                   TextColor="Orange">Facebook: Jul Tecu</Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

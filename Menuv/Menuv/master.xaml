@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuv.master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Menú" FontSize="24" TextColor="Orange"/>
+            <Button Text="Acerca de" x:Name="acerca" FontSize="12" BackgroundColor="Orange"
+                    Image="info.png" HorizontalOptions="Start" Clicked="acerca_Clicked"/>
+            <Button Text="Contacto" x:Name="conta" FontSize="12" BackgroundColor="Orange"
+                    Image="acerca.png" HorizontalOptions="Start" Clicked="conta_Clicked"/>
+            <Button Text="Formulario" x:Name="form" FontSize="12" BackgroundColor="Orange"
+                    Image="form.png" HorizontalOptions="Start" Clicked="form_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

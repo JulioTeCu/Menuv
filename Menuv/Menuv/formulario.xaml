@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuv.formulario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="MediumSeaGreen" Padding="20" CornerRadius="0">
+                <Label Text="FORMULARIO" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry x:Name="nombre" Placeholder="Nombre Completo" TextColor="Magenta"></Entry>
+            <Entry Placeholder="Escribe edad" Keyboard="Numeric"></Entry>
+            <Entry x:Name="Plantel" Placeholder="Plantel" TextColor="Magenta"></Entry>
+            <Entry x:Name="grado" Placeholder="Grado y Grupo" TextColor="Magenta"></Entry>
+            <Entry x:Name="cd" Placeholder="Ciudad" TextColor="Magenta"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
