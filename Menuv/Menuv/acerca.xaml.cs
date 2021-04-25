@@ -16,5 +16,10 @@ namespace Menuv
         {
             InitializeComponent();
         }
+
+        private void jaja_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

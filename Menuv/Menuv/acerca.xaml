@@ -15,6 +15,7 @@
                    TextColor="Orange">CBTIS 03 6AMPG</Label>
             <Label FontSize="20" HorizontalTextAlignment="Center" 
                    TextColor="Orange">DESARROLLA APLICACIONES MÓVILES PARA iOS</Label>
+            <Button Text="La concha de tu madre" x:Name="jaja" Clicked="jaja_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
